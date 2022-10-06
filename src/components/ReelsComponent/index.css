@@ -1,0 +1,159 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  border: 1px solid black;
+}
+
+.background {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoWrapper {
+  position: relative;
+}
+
+.video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.playIcon,
+.pauseIcon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 20px;
+  color: #ffffff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.speakerOnIcon,
+.speakerOffIcon {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 20px;
+  color: #ffffff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.bigPlayIcon,
+.bigPauseIcon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  animation: IconEffect 1s ease-in-out;
+  opacity: 0;
+}
+
+@keyframes IconEffect {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.sideBarIcons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  right: -80px;
+  color: #ffffff;
+  height: 100%;
+  bottom: 0;
+  z-index: 1;
+}
+
+.sideBarIconsForSmallScreen {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  right: 10px;
+  bottom: 5px;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.sideBarIconsForSmallScreen div {
+  margin: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sideBarIconsForSmallScreen div:first-child {
+  margin: 0;
+}
+
+.sideBarIcons div {
+  margin: 25px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sideBarIcons div * {
+  cursor: pointer;
+}
+
+.sideBarIcons div:first-child {
+  flex: 1;
+  margin: 0;
+}
+
+.sideBarIcons div:last-child {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.likeText, .dislikeText {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.commentText, .shareText {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.bottomBar {
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.bottomBar div:first-child {
+  margin: 10px 0px;
+  font-size: 14px;
+}
+
+.bottomBar div:last-child {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.bottomBar div:last-child img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.bottomBar div:last-child label {
+  padding-left: 10px;
+}
+
+
