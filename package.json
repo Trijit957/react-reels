@@ -1,10 +1,10 @@
 {
-  "name": "@scripters/react-reels",
-  "version": "1.0.0",
+  "name": "@sayings/react-reels",
+  "version": "0.0.4",
   "description": "Made with create-react-library",
   "author": "Trijit Goswami",
   "license": "ISC",
-  "repository": "Trijit Goswami/@scripters/react-reels",
+  "repository": "https://github.com/Trijit957/react-reels",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",

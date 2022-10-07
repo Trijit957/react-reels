@@ -80,8 +80,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  right: 10px;
-  bottom: 5px;
+  right: 20px;
+  bottom: 10px;
   color: #ffffff;
   z-index: 1;
 }
