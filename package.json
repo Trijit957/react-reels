@@ -1,6 +1,6 @@
 {
   "name": "@sayings/react-reels",
-  "version": "0.0.4",
+  "version": "1.0.1",
   "description": "Made with create-react-library",
   "author": "Trijit Goswami",
   "license": "ISC",
@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^18.2.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -52,8 +52,8 @@
     "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-scripts": "^3.4.1",
     "typescript": "^3.7.5"
   },
@@ -63,6 +63,6 @@
   "dependencies": {
     "@szhsin/react-menu": "^3.2.0",
     "react-icons": "^4.4.0",
-    "swiper": "^8.3.2"
+    "swiper": "^8.4.3"
   }
 }

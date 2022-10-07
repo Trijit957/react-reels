@@ -4,7 +4,6 @@ import React, { createRef, Fragment, RefObject, useEffect, useRef, useState } fr
 /* React Swiper Import */
 import { Mousewheel } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper.min.css';
 
 /* React Menu Import */
 import { Menu, MenuItem } from '@szhsin/react-menu';
@@ -21,7 +20,7 @@ import { IoIosShareAlt } from 'react-icons/io';
 import { BsThreeDotsVertical } from 'react-icons/bs';
 
 /* Style Sheet Import */
-import styles from './index.css'
+import styles from './index.module.css'
 
 /* Custom Hook Import */
 import useSizeMode, { sizeObj } from '../../hooks/size';
@@ -258,7 +257,7 @@ const ReelsComponent: React.FC<ReelsPropType> = ({ reels, reelMetaInfo, onMenuIt
   return (
     <Fragment>
        <Swiper
-          style={{ height: `${window.innerHeight}px`, backgroundColor: reelMetaInfo?.backGroundColor || '#000000' }}
+          style={{ height: `${window.outerHeight}px`, backgroundColor: reelMetaInfo?.backGroundColor || '#000000' }}
           direction={'vertical'}
           mousewheel={true}
           modules={[Mousewheel]}

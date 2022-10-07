@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Reels } from '@scripters/react-reels'
-import '@scripters/react-reels/dist/index.css'
+import { Reels } from '@sayings/react-reels'
+import '@sayings/react-reels/dist/index.css'
 
 const reels = [
   {

@@ -18,9 +18,9 @@ npm install --save @sayings/react-reels
 ## Usage
 
 ```tsx
-import React, { Reels } from 'react'
+import React from 'react'
 
-import MyComponent from '@sayings/react-reels'
+import { Reels } from '@sayings/react-reels'
 import '@sayings/react-reels/dist/index.css'
 
 const App = () => {
