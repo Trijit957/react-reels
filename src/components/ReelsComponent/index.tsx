@@ -257,9 +257,10 @@ const ReelsComponent: React.FC<ReelsPropType> = ({ reels, reelMetaInfo, onMenuIt
   return (
     <Fragment>
        <Swiper
-          style={{ height: `${window.outerHeight}px`, backgroundColor: reelMetaInfo?.backGroundColor || '#000000' }}
+          style={{ height: '100vh', backgroundColor: reelMetaInfo?.backGroundColor || '#000000' }}
           direction={'vertical'}
           mousewheel={true}
+         // spaceBetween={10}
           modules={[Mousewheel]}
           slidesPerView={sizeMode === sizeObj.extraSmallScreen ? 1 : 1.1}
           onSlideChange={(event) => handleSlideChange(event)}
